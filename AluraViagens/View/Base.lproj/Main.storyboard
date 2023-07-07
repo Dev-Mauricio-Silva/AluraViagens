@@ -16,17 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xzq-5X-2Be">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xzq-5X-2Be">
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xzq-5X-2Be" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7KO-dM-XzA"/>
+                            <constraint firstItem="xzq-5X-2Be" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VCt-Ui-CVi"/>
+                            <constraint firstItem="xzq-5X-2Be" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WAZ-Vc-I7X"/>
+                            <constraint firstAttribute="bottom" secondItem="xzq-5X-2Be" secondAttribute="bottom" id="tpu-Mw-wsC"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="viagensTableView" destination="xzq-5X-2Be" id="Lcu-cN-YHo"/>
+                        <outlet property="viagensTableView" destination="xzq-5X-2Be" id="f12-j4-0th"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
