@@ -99,7 +99,7 @@
                                     <constraint firstAttribute="trailing" secondItem="GOv-az-pZd" secondAttribute="trailing" id="wNH-Yo-4ZD"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVS-9F-h9L">
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVS-9F-h9L">
                                 <rect key="frame" x="155" y="0.0" width="145" height="365"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a8o-6R-H9x">
